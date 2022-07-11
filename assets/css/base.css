@@ -200,3 +200,38 @@ html{
 .select-input__link:hover{
     color: var(--primary-color);
 }
+
+.pagination{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-item__link > .pagination-item__icon{
+    -webkit-text-stroke: 0.01px;
+}
+
+.pagination-item{
+    margin:0 8px;
+}
+
+.pagination-item__link{
+    --height:30px;
+    text-decoration: none;
+    display: block;
+    color:#939393;
+    font-size: 2.0rem;
+    margin: 0 5px;  
+    font-weight: 400;
+    min-width: 40px;
+    height:var(--height);
+    text-align: center;
+    line-height: var(--height);
+    border-radius: 2px;
+}
+
+.pagination-item--active .pagination-item__link{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
