@@ -4,6 +4,7 @@
     background-image: linear-gradient(0, #fe6232, #f6412e);
     /* background-image: linear-gradient(0, #13294b, #f6412e); */
 }
+
 .header__navbar{
     height: var(--navbar-height);
     display: flex;
@@ -298,7 +299,7 @@
     display: block;
 }
 
-/* Modal */
+/* Modal -------------------------------------------------------*/
 .auth-form{
     width: 564px;
     background-color: white;
@@ -832,7 +833,7 @@
 
 .header__cart-list-no-cart 
 .header__cart-list-wrap-has-card{
-    display: none;
+    display: none;   
 }
 /*----------------------------------*/
 
@@ -1289,4 +1290,225 @@
 .pagination-item__ellipsis{
     pointer-events: none;
     cursor: default;
+}
+
+/* footer --------------------------------------------------*/
+
+.footer{
+    border-top: 4px solid #ee4d2d;
+    color: rgba(0,0,0,.54);
+}
+
+.footer__paseudo{
+    padding-top: 120px;
+    background-color: #fff;
+}
+
+.footer__container{
+    padding: 0 calc((100% - 1200px) / 2);
+    font-size: 1.3rem;
+
+}
+
+.footer__container > .grid__row:first-child{
+    padding-top: 40px;
+    border-top: 1.5px solid #eaeaea;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid #eaeaea;
+}
+
+.footer > .grid{
+    width: 100%;
+    background-color: #fbfbfb;
+}
+
+.footer__list{
+    list-style-type: none;
+    padding: 0;
+    line-height: 35px;
+    margin: 0;
+}
+
+
+.footer-item{
+    line-height: 27px;
+}
+
+.footer-item__link{
+    text-decoration: none;
+    
+    color: rgba(0,0,0,.54);
+    font-weight: 400;
+}
+
+.footer-item__link i{
+    color: #000;
+    border-radius: 50%;
+}
+
+.footer-item__link:hover{
+    color: var(--primary-color);
+}
+
+.footer-item__link:hover i{
+    color: #000;
+}
+
+.footer-download{
+    display: flex;
+}
+
+.footer-download-qr{
+    width: 85px;
+    height: 85px;
+    margin-right: 15px;
+}
+.footer-download-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-download-apps{
+    width: 80px;
+}
+
+.footer-paid{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-items: center;
+}
+
+.footer-paid__item{
+    width: 55px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    margin: 0 8px 8px 0;
+}
+
+.footer-paid__1{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1463.6363636363637% 983.3333333333334%;
+    background-position: 75.86666666666666% 6.289308176100629%;
+}
+
+.footer-paid__2{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1463.6363636363637% 610.3448275862069%;
+    background-position: 51.2% 68.91891891891892%;
+}
+.footer-paid__3{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1463.6363636363637% 769.5652173913044%;
+    background-position: 51.2% 38.311688311688314%;
+}
+.footer-paid__4{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1610% 610.3448275862069%;
+    background-position: 80.39735099337749% 32.432432432432435%;
+}
+.footer-paid__5{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1463.6363636363637% 610.3448275862069%;
+    background-position: 80.93333333333334% 65.54054054054055%;
+}
+.footer-paid__6{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 805% 931.578947368421%;
+    background-position: 63.687943262411345% 6.329113924050633%;
+}
+.footer-paid__0{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1610% 804.5454545454545%;
+    background-position: 1.3245033112582782% 6.451612903225806%;
+}
+.footer-paid__7{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 725.2252252252252% 983.3333333333334%;
+    background-position: 16.42651296829971% 82.38993710691824%;
+}
+
+.footer-paid__8{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1463.6363636363637% 983.3333333333334%;
+    background-position: 34.266666666666666% 51.57232704402516%;
+}
+.footer-paid__9{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 628.90625% 138.28125%;
+    background-position: 67.79911373707533% 100%;
+}
+.footer-paid__10{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1463.6363636363637% 610.3448275862069%;
+    background-position: 24.266666666666666% 55.4054054054054%;
+}
+.footer-paid__11{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1463.6363636363637% 655.5555555555555%;
+    background-position: 100% 6.666666666666667%;
+}
+.footer-paid__12{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1463.6363636363637% 1106.25%;
+    background-position: 85.86666666666666% 6.211180124223603%;
+}
+.footer-paid__13{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 600.7462686567164% 610.3448275862069%;
+    background-position: 45.45454545454545% 6.756756756756757%;
+}
+.footer-paid__14{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1341.6666666666667% 680.7692307692307%;
+    background-position: 34.49664429530201% 79.47019867549669%;
+}
+.footer-paid__15{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 865.5913978494624% 340.38461538461536%;
+    background-position: 26.96629213483146% 8%;
+}.footer-paid__16{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b8b421a5073979352a01b5dafb628d0e.png);
+    background-size: 1118.0555555555557% 245.83333333333334%;
+    background-position: 12.278308321964529% 9.523809523809524%;
+}
+
+.footer__location{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-items: center;
+    margin:0 0 0 100px;
+    justify-content: center;
+
+}
+
+.footer__text{
+    width: 380px;
+}
+
+.footer__location-item a{
+    text-decoration: none;
+    color: #929697;
+}
+
+.footer-location-cover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.footer__location-item
+{
+    padding: 0 5px;
+    border-right: 0.5px solid rgba(0,0,0,0.3);
+}
+
+.footer__location-item:last-child{
+    border: none;
 }

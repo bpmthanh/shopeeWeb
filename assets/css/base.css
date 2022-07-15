@@ -17,7 +17,8 @@ html{
     font-size: 62.5%; /*Chu y*/
     line-height: 1.6rem !important;
     font-family: 'Roboto', sans-serif; /*Ghi 'san-serif' nghia la cho neu font 'Roboto' chua tai xong thi dung san-serif, neu tai xong roi thi dung roboto*/
-    height: 200vh;
+    /* height: 200vh; */
+    height: 100vh;;
 }
 
 /* Responsive */
@@ -35,7 +36,7 @@ html{
 .grid__row{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -5px;
+    /* margin: 0 -5px; */
 }
 
 .grid__column-2{
@@ -59,6 +60,15 @@ html{
     margin: 0 -5px;
 }
 
+.grid__column-4{
+    padding: 0 5px;
+    width: 33.33%;
+}
+.grid__column-8{
+    padding: 0 5px;
+    width: calc (100% - 33.33%);
+}
+
 @keyframes fadeIn{
     from{
         opacity: 0;
@@ -78,6 +88,8 @@ html{
     }
 }
 
+/* Modal -----------------------------------------------------*/
+
 .modal{
     position: fixed;
     top: 0;
@@ -92,7 +104,8 @@ html{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.4);
+    /* background-color: rgba(0,0,0,0.4); */
+    background-color: #ededed;
 
 
     animation: fadeIn linear 0.3s; 
@@ -107,7 +120,7 @@ html{
     animation: growth ease 0.3s;
 }
 
-/* Button style */
+/* Button style -----------------------------------------------*/
 .btn{
     /* min-width: 124px; */
     height: 34px;
@@ -146,9 +159,10 @@ html{
 .btn--size-s{
     height: 32px;
     font-size: 12px;
+    padding-left: 10px;
 }
 
-/* Selection */
+/* Selection -----------------------------------------------*/
 .select-input{
     height: 34px ;
     min-width: 200px;
@@ -234,4 +248,12 @@ html{
 .pagination-item--active .pagination-item__link{
     background-color: var(--primary-color);
     color: var(--white-color);
+}
+
+.un-active{
+    display: none;
+}
+
+.active--modal{
+    display: flex;
 }
